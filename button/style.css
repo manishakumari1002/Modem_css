@@ -1,0 +1,36 @@
+.box{
+    height: 300px;
+    width: 320px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    transition: all 3s  ease-in;   /* property name | duration | easing function | delay */
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.box:hover{
+ /*transform: rotate(360deg);                /* take positive and negative value: only direction will change*/
+ /* transform: scale(2);                /*increase and decrease sizes*/
+ /* transform: scale(0.5);
+  transform: skew(45deg);  */                /* take positive and negative value: only direction will change*/
+
+transform: translate(200px, -100px);                     /*in x y direction*/
+
+
+}
+
+
+p{
+   font-size: 25px; 
+}
